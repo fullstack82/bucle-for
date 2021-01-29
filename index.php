@@ -9,3 +9,9 @@ for(variable, condicion, actualizando el contador){
 }*/
 
 
+$resultado = 0;
+
+for ($i = 0; $i <= 100; $contador++){
+    $resultado = $resultado + $contador + $i;
+}
+echo "<h1> El resultado es: $resultado </h1>";
